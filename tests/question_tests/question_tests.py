@@ -9,4 +9,6 @@ class Test_Config(unittest.TestCase):
     def test_question_a_config(self):
         self.assertEqual(True, test_config())
 
+result = get_most_likely_ancestor_consensus("GATATATGCATATACTT", "ATAT")
+assert result == (2, 4, 10)
 
